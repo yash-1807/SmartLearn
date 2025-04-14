@@ -25,3 +25,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data directories
+backend/db/
+backend/study_materials/
+backend/syllabus/
+backend/uploaded_pdfs/
+backend/uploads/
+
+# specific files
+backend/showcase.txt
